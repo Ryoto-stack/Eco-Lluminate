@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Handycheera';
+    src: url('./handycheera.ttf') format('truetype');
+    font-weight:600;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: 'Vonique';
+    src: url('./vonique.ttf') format('truetype');
+    font-weight:600;
+    font-style:normal;
+}
+
+.vonique {
+    font-family: 'Vonique'!important;
+}
+
+.handy {
+    font-family: 'Handycheera'!important;
+}
