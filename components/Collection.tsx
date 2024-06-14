@@ -33,22 +33,19 @@ export function Collection() {
       <section className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
           <div className="space-y-2">
-            <img
-              className="object-cover"
-              width="500"
-              height="500"
+            <Image
+              height={500}
+              width={500}
               src="/Blooming-Lavender.png"
               alt="lavender"
             />
-            <img
-              className="object-cover"
-              width="500"
-              height="500"
+            <Image
+              width={500}
+              height={500}
               src="/Candle-Tag.png"
               alt="tag"
             />
-            <img
-              className="object-cover"
+            <Image
               width="500"
               height="500"
               src="/Card-1.png"
@@ -56,22 +53,19 @@ export function Collection() {
             />
           </div>
           <div className="space-y-2">
-            <img
-              className="object-cover"
+            <Image
               width="500"
               height="500"
               src="/Choco-Vanilla-&-Fresh-Mint.png"
               alt="lavender"
             />
-            <img
-              className=" object-cover"
+            <Image
               width="500"
               height="500"
               src="/Fruity-Lemon.png"
               alt="fruity-lemon"
             />
-            <img
-              className="object-cover"
+            <Image
               width="500"
               height="500"
               src="/Paper-Bag-Dark.png"
@@ -80,21 +74,18 @@ export function Collection() {
           </div>
           <div className="space-y-2">
             <Image
-              className="object-cover"
               width="500"
               height="500"
               src="/Citronella.png"
               alt="citronella"
             />
-            <img
-              className="object-cover"
+            <Image
               width="500"
               height="500"
               src="/Stock-Candle 2.png"
               alt="creamymocha"
             />
-            <img
-              className="object-cover"
+            <Image
               width="500"
               height="500"
               src="/Strawberry-and-Champagne.png"
@@ -102,22 +93,19 @@ export function Collection() {
             />
           </div>
           <div className="space-y-2">
-            <img
-              className="object-cover"
+            <Image
               width="500"
               height="500"
               src="/Flyer-1.png"
               alt="citronella"
             />
-            <img
-              className="object-cover"
+            <Image
               width="500"
               height="500"
               src="/Creamy-Mocha.png"
               alt="creamymocha"
             />
-            <img
-              className="object-cover"
+            <Image
               width="500"
               height="500"
               src="/Packaging-1.png"

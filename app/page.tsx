@@ -4,11 +4,11 @@ import React from "react";
 import style from "@/components/pages/handycheera.module.css";
 import Footer from "@/components/Footer";
 
-export default function homepage() {
+export default function Home() {
   return (
     <main className="bg-[#d9b99b]">
       <Top />
-      <div>
+      
         {/* banner */}
         <section className="relative bg-[url(/candlebg.jpg)] bg-cover bg-center bg-no-repeat">
           <div className="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
@@ -42,7 +42,7 @@ export default function homepage() {
             </div>
           </div>
         </section>
-      </div>
+      
       {/* collection grid */}
       <section>
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6 sm:py-8 lg:px-8">
@@ -61,10 +61,13 @@ export default function homepage() {
           <ul className="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-3">
             <li>
               <a href="/productlist" className="group relative block">
-                <img
+                <Image
                   src="/Blooming-Lavender.png"
-                  alt=""
-                  className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
+                  alt="lavender"
+                  height={500}
+                  width={500}
+                  objectFit="contain"
+                  className="aspect-square transition duration-500 group-hover:opacity-90"
                 />
 
                 <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
@@ -81,9 +84,11 @@ export default function homepage() {
 
             <li>
               <a href="/productlist" className="group relative block">
-                <img
+                <Image
                   src="/Fruity-Lemon.png"
-                  alt=""
+                  alt="fruitylemon"
+                  height={500}
+                  width={500}
                   className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
                 />
 
@@ -101,8 +106,10 @@ export default function homepage() {
 
             <li className="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
               <a href="/productlist" className="group relative block">
-                <img
+                <Image
                   src="/Choco-Vanilla-&-Fresh-Mint.png"
+                  height={500}
+                  width={500}
                   alt=""
                   className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
                 />
@@ -152,9 +159,11 @@ export default function homepage() {
                 <ul className="grid grid-cols-2 gap-4">
                   <li>
                     <a href="#" className="group block">
-                      <img
+                      <Image
                         src="/Citronella.png"
-                        alt=""
+                        alt="citronella"
+                        height={500}
+                  width={500}
                         className="aspect-square w-full rounded object-cover"
                       />
 
@@ -170,9 +179,11 @@ export default function homepage() {
 
                   <li>
                     <a href="#" className="group block">
-                      <img
+                      <Image
                         src="/Creamy-Mocha.png"
                         alt=""
+                        height={500}
+                  width={500}
                         className="aspect-square w-full rounded object-cover"
                       />
 
@@ -251,9 +262,11 @@ export default function homepage() {
           <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
             <blockquote className="rounded-lg bg-[#faf0e6] p-6 shadow-sm sm:p-8">
               <div className="flex items-center gap-4">
-                <img
-                  alt=""
+                <Image
+                  alt="patrick"
                   src="/Patrick.png"
+                  height={500}
+                  width={500}
                   className="size-14 rounded-full object-cover"
                 />
 
@@ -317,9 +330,11 @@ export default function homepage() {
 
             <blockquote className="rounded-lg bg-[#faf0e6] p-6 shadow-sm sm:p-8">
               <div className="flex items-center gap-4">
-                <img
-                  alt=""
+                <Image
+                  alt="sandy"
                   src="/Sandy.png"
+                  height={500}
+                  width={500}
                   className="size-14 rounded-full object-cover"
                 />
 
@@ -383,9 +398,11 @@ export default function homepage() {
 
             <blockquote className="rounded-lg bg-[#faf0e6] p-6 shadow-sm sm:p-8">
               <div className="flex items-center gap-4">
-                <img
-                  alt=""
+                <Image
+                  alt="spongebob"
                   src="/spongebob.png"
+                  height={500}
+                  width={500}
                   className="size-14 rounded-full object-cover"
                 />
 

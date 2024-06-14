@@ -4,7 +4,7 @@ import Top from "./Header";
 import style from "@/components/pages/handycheera.module.css";
 import Footer from "./Footer";
 
-export default function ProductList() {
+export default function Productlist() {
   return (
     <main className="bg-[#d9b99b] h-full w-full">
         <Top />
@@ -32,10 +32,11 @@ export default function ProductList() {
               </div>
 
               <div className="mb-5 overflow-hidden mx-auto aspect-w-16 aspect-h-8">
-                <img
+                <Image
                   src="/Blooming-Lavender.png"
                   alt="Product 1"
-                  className="h-full w-full object-contain"
+                  height={500}
+                  width={500}
                 />
               </div>
 
@@ -108,10 +109,11 @@ export default function ProductList() {
                 </svg>
               </div>
               <div className="mb-5 overflow-hidden mx-auto aspect-w-16 aspect-h-8">
-                <img
+                <Image
                   src="/Choco-Vanilla-&-Fresh-Mint.png"
                   alt="Product 2"
-                  className="h-full w-full object-contain"
+                  height={500}
+                  width={500}
                 />
               </div>
               <div className="p-6 bg-white text-left">
@@ -183,9 +185,11 @@ export default function ProductList() {
                 </svg>
               </div>
               <div className="mb-5 overflow-hidden mx-auto aspect-w-16 aspect-h-8">
-                <img
+                <Image
                   src="/Citronella.png"
                   alt="Product 3"
+                  height={500}
+                  width={500}
                   className="h-full w-full object-contain"
                 />
               </div>
@@ -258,9 +262,11 @@ export default function ProductList() {
                 </svg>
               </div>
               <div className="mb-5 overflow-hidden mx-auto aspect-w-16 aspect-h-8">
-                <img
+                <Image
                   src="/Creamy-Mocha.png"
                   alt="Product 3"
+                  height={500}
+                  width={500}
                   className="h-full w-full object-contain"
                 />
               </div>
@@ -333,9 +339,11 @@ export default function ProductList() {
                 </svg>
               </div>
               <div className="mb-5 overflow-hidden mx-auto aspect-w-16 aspect-h-8">
-                <img
+                <Image
                   src="/Fruity-Lemon.png"
                   alt="Product 3"
+                  height={500}
+                  width={500}
                   className="h-full w-full object-contain"
                 />
               </div>
@@ -406,9 +414,11 @@ export default function ProductList() {
                 </svg>
               </div>
               <div className="mb-5 overflow-hidden mx-auto aspect-w-16 aspect-h-8">
-                <img
+                <Image
                   src="/Strawberry-and-Champagne.png"
                   alt="Product 3"
+                  height={500}
+                  width={500}
                   className="h-full w-full object-contain"
                 />
               </div>
@@ -481,9 +491,11 @@ export default function ProductList() {
                 </svg>
               </div>
               <div className="mb-5 overflow-hidden mx-auto aspect-w-16 aspect-h-8">
-                <img
+                <Image
                   src="/Stock-Candle 1.png"
                   alt="Product 3"
+                  height={500}
+                  width={500}
                   className="h-full w-full object-contain"
                 />
               </div>
@@ -554,9 +566,11 @@ export default function ProductList() {
                 </svg>
               </div>
               <div className="mb-5 overflow-hidden mx-auto aspect-w-16 aspect-h-8">
-                <img
+                <Image
                   src="/Stock-Candle 2.png"
                   alt="Product 3"
+                  height={500}
+                  width={500}
                   className="h-full w-full object-contain"
                 />
               </div>
