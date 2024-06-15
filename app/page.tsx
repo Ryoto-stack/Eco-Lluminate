@@ -382,7 +382,7 @@ export default function Home() {
               </div>
 
               <p className="mt-4 text-gray-700">
-                I'm a candle enthusiast, and I must say, Eco-Lluminate's candles
+                I&apos;m a candle enthusiast, and I must say, Eco-Lluminate&apos;s candles
                 are top-notch. The variety of scents is impressive, and each one
                 is crafted with such attention to detail. They make perfect
                 gifts too!
@@ -450,9 +450,9 @@ export default function Home() {
               </div>
 
               <p className="mt-4 text-gray-700">
-                I purchased a few candles from Eco-Lluminate, and I'm obsessed!
+                I purchased a few candles from Eco-Lluminate, and I&apos;m obsessed!
                 The fragrances are unique and sophisticated, and the candles
-                burn evenly and cleanly. I couldn't be happier with my purchase!
+                burn evenly and cleanly. I couldn&apos;t be happier with my purchase!
               </p>
             </blockquote>
           </div>
