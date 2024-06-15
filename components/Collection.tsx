@@ -19,14 +19,17 @@ export function Collection() {
         >
           Collections
         </h1>
-        <p className="mb-5 text-black">Some Lorem Ipsum Shit text here</p>
+        <p className="mb-5 text-black w-96">
+          Explore our curated collections, each meticulously crafted to inspire
+          and delight. 
+        </p>
         <div className="flex flex-row p-none w-full justify-center">
-        <a
-          href="#"
-          className="block w-full rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
-        >
-          Shop Now
-        </a>
+          <a
+            href="#"
+            className="block w-full rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+          >
+            Shop Now
+          </a>
         </div>
       </div>
       {/* Collection */}
@@ -39,18 +42,8 @@ export function Collection() {
               src="/Blooming-Lavender.png"
               alt="lavender"
             />
-            <Image
-              width={500}
-              height={500}
-              src="/Candle-Tag.png"
-              alt="tag"
-            />
-            <Image
-              width="500"
-              height="500"
-              src="/Card-1.png"
-              alt="cardone"
-            />
+            <Image width={500} height={500} src="/Candle-Tag.png" alt="tag" />
+            <Image width="500" height="500" src="/Card-1.png" alt="cardone" />
           </div>
           <div className="space-y-2">
             <Image
@@ -115,7 +108,7 @@ export function Collection() {
         </div>
       </section>
       {/* Footer */}
-      <Footer/>
+      <Footer />
     </main>
   );
 }

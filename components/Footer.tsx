@@ -8,12 +8,11 @@ export default function Footer() {
     <footer className="bg-[#f1c49a]">
         <div className="mx-auto max-w-5xl px-4 py-5 sm:px-6 lg:px-8">
           <div className="flex justify-center items-center flex-row text-teal-600">
-            <Image height="150" width="150" src="/nobglogo.png" alt="logo" />
+            <img height="150" width="150" src="/brown logo.png" alt="logo" />
           </div>
 
           <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-black">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-            consequuntur amet culpa cum itaque neque.
+          © 2024 Eco-Lluminate. All rights reserved.
           </p>
 
           <ul className="mt-5 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">

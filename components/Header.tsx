@@ -9,7 +9,7 @@ export default function Top() {
         <div className="flex flex-wrap items-center lg:gap-y-2 gap-4 w-full">
           <a href="">
             <Image 
-            src="/nobglogo.png" 
+            src="/brown logo.png" 
             alt="logo"
             height={50}
             width={50}
@@ -47,7 +47,7 @@ export default function Top() {
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
                 <a
-                  href="#"
+                  href="/team"
                   className="text-[#8b6643] transition hover:text-[#ddae81] text-[15px] block font-semibold"
                 >
                   About Us
