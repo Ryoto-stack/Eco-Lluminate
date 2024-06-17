@@ -215,7 +215,7 @@ export default function Team() {
                     Kent Escala
                   </h3>
                   <p className="text-xs uppercase text-gray-500 dark:text-neutral-500">
-                    Dev-Ops
+                    Web Developer
                   </p>
                 </div>
               </div>
@@ -358,9 +358,9 @@ export default function Team() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   >
                     <path d="m9 18 6-6-6-6" />
                   </svg>
