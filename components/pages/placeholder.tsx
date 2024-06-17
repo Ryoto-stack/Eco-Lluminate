@@ -4,10 +4,10 @@ import { PlaceholdersAndVanishInput } from "@/components/ui/placeholders-and-van
 
 export function Placeholder() {
   const placeholders = [
-    "Ako si Superman",
-    "ASAN ANG SABAW!!!!",
-    "Pano mo nasabi?",
-    "HALA NAHULOG!!!",
+    "Freshen up your senses",
+    "Unleash the safeness",
+    "At your fingertips",
+    "Eco-Lluminate",
   ];
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
